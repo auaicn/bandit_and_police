@@ -1,0 +1,600 @@
+fileFormatVersion: 2
+guid: e35715015772c7444ba5e18c4889b897
+timeCreated: 1472438384
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Global
+    100002: Head
+    100004: HeadAdjust
+    100006: HeadAdjust (2)
+    100008: HeadAdjust (3)
+    100010: HeadAdjust (4)
+    100012: Hips
+    100014: LeftArm
+    100016: LeftArmAdjust
+    100018: LeftArmAdjust (2)
+    100020: LeftCheek
+    100022: LeftCheekAdjust
+    100024: LeftEar
+    100026: LeftEarAdjust
+    100028: LeftEarAdjust (2)
+    100030: LeftEarAdjust (3)
+    100032: LeftEarAdjust (4)
+    100034: LeftEye
+    100036: LeftEyeAdjust
+    100038: LeftEyebrowLow
+    100040: LeftEyebrowLowAdjust
+    100042: LeftEyebrowLowAdjust (2)
+    100044: LeftEyebrowMiddle
+    100046: LeftEyebrowMiddleAdjust
+    100048: LeftEyebrowMiddleAdjust (2)
+    100050: LeftEyebrowUp
+    100052: LeftEyebrowUpAdjust
+    100054: LeftEyebrowUpAdjust (2)
+    100056: LeftEyeGlobe
+    100058: LeftFoot
+    100060: LeftFoot (2)
+    100062: LeftForeArm
+    100064: LeftForeArmAdjust
+    100066: LeftForeArmAdjust (2)
+    100068: LeftForeArmTwist
+    100070: LeftForeArmTwistAdjust
+    100072: LeftForeArmTwistAdjust (2)
+    100074: LeftGluteus
+    100076: LeftGluteus (2)
+    100078: LeftGluteus (3)
+    100080: LeftGluteus (4)
+    100082: LeftHand
+    100084: LeftHand (2)
+    100086: LeftHandFinger01_01
+    100088: LeftHandFinger01_02
+    100090: LeftHandFinger01_03
+    100092: LeftHandFinger02_01
+    100094: LeftHandFinger02_02
+    100096: LeftHandFinger02_03
+    100098: LeftHandFinger03_01
+    100100: LeftHandFinger03_02
+    100102: LeftHandFinger03_03
+    100104: LeftHandFinger04_01
+    100106: LeftHandFinger04_02
+    100108: LeftHandFinger04_03
+    100110: LeftHandFinger05_01
+    100112: LeftHandFinger05_02
+    100114: LeftHandFinger05_03
+    100116: LeftInnerBreast
+    100118: LeftInnerBreast (2)
+    100120: LeftLeg
+    100122: LeftLeg (2)
+    100124: LeftLegAdjust
+    100126: LeftLegAdjust (2)
+    100128: LeftLegAdjust (3)
+    100130: LeftLips
+    100132: LeftLipsAdjust
+    100134: LeftLipsInferior
+    100136: LeftLipsInferiorAdjust
+    100138: LeftLipsSuperiorMiddle
+    100140: LeftLipsSuperiorMiddleAdjust
+    100142: LeftLowCheek
+    100144: LeftLowCheekAdjust
+    100146: LeftLowCheekAdjust (2)
+    100148: LeftLowerLid
+    100150: LeftLowerLidAdjust
+    100152: LeftLowMaxilar
+    100154: LeftLowMaxilarAdjust
+    100156: LeftLowMaxilarAdjust (2)
+    100158: LeftNose
+    100160: LeftNoseAdjust
+    100162: LeftOuterBreast
+    100164: LeftOuterBreast (2)
+    100166: LeftShoulder
+    100168: LeftShoulderAdjust
+    100170: LeftShoulderAdjust (2)
+    100172: LeftToeBase
+    100174: LeftToeBase (2)
+    100176: LeftTrapezius
+    100178: LeftTrapezius (2)
+    100180: LeftUpLeg
+    100182: LeftUpLegAdjust
+    100184: LeftUpLegAdjust (2)
+    100186: LeftUpperLid
+    100188: LeftUpperLidAdjust
+    100190: LipsInferior
+    100192: LipsInferiorAdjust
+    100194: LipsSuperior
+    100196: LipsSuperiorAdjust
+    100198: LowerBack
+    100200: LowerBackAdjust
+    100202: LowerBackAdjust (2)
+    100204: LowerBackAdjust (3)
+    100206: LowerBackBelly
+    100208: LowerBackBelly (2)
+    100210: LowerBackBelly (3)
+    100212: Mandible
+    100214: MandibleAdjust
+    100216: MandibleAdjust (2)
+    100218: //RootNode
+    100220: Mill_hat_remap
+    100222: Neck
+    100224: NeckAdjust
+    100226: NeckAdjust (2)
+    100228: NeckAdjust (3)
+    100230: NeckAdjust (4)
+    100232: NoseBase
+    100234: NoseBaseAdjust
+    100236: NoseBaseAdjust (2)
+    100238: NoseMiddle
+    100240: NoseMiddleAdjust
+    100242: NoseMiddleAdjust (2)
+    100244: NoseTop
+    100246: NoseTopAdjust
+    100248: NoseTopAdjust (2)
+    100250: Position
+    100252: RightArm
+    100254: RightArmAdjust
+    100256: RightArmAdjust (2)
+    100258: RightCheek
+    100260: RightCheekAdjust
+    100262: RightEar
+    100264: RightEarAdjust
+    100266: RightEarAdjust (2)
+    100268: RightEarAdjust (3)
+    100270: RightEarAdjust (4)
+    100272: RightEye
+    100274: RightEyeAdjust
+    100276: RightEyebrowLow
+    100278: RightEyebrowLowAdjust
+    100280: RightEyebrowLowAdjust (2)
+    100282: RightEyebrowMiddle
+    100284: RightEyebrowMiddleAdjust
+    100286: RightEyebrowMiddleAdjust (2)
+    100288: RightEyebrowUp
+    100290: RightEyebrowUpAdjust
+    100292: RightEyebrowUpAdjust (2)
+    100294: RightEyeGlobe
+    100296: RightFoot
+    100298: RightFoot (2)
+    100300: RightForeArm
+    100302: RightForeArmAdjust
+    100304: RightForeArmAdjust (2)
+    100306: RightForeArmTwist
+    100308: RightForeArmTwistAdjust
+    100310: RightForeArmTwistAdjust (2)
+    100312: RightGluteus
+    100314: RightGluteus (2)
+    100316: RightGluteus (3)
+    100318: RightHand
+    100320: RightHand (2)
+    100322: RightHandFinger01_01
+    100324: RightHandFinger01_02
+    100326: RightHandFinger01_03
+    100328: RightHandFinger02_01
+    100330: RightHandFinger02_02
+    100332: RightHandFinger02_03
+    100334: RightHandFinger03_01
+    100336: RightHandFinger03_02
+    100338: RightHandFinger03_03
+    100340: RightHandFinger04_01
+    100342: RightHandFinger04_02
+    100344: RightHandFinger04_03
+    100346: RightHandFinger05_01
+    100348: RightHandFinger05_02
+    100350: RightHandFinger05_03
+    100352: RightInnerBreast
+    100354: RightInnerBreast (2)
+    100356: RightLeg
+    100358: RightLeg (2)
+    100360: RightLegAdjust
+    100362: RightLegAdjust (2)
+    100364: RightLegAdjust (3)
+    100366: RightLips
+    100368: RightLipsAdjust
+    100370: RightLipsInferior
+    100372: RightLipsInferiorAdjust
+    100374: RightLipsSuperiorMiddle
+    100376: RightLipsSuperiorMiddleAdjust
+    100378: RightLowCheek
+    100380: RightLowCheekAdjust
+    100382: RightLowCheekAdjust (2)
+    100384: RightLowerLid
+    100386: RightLowerLidAdjust
+    100388: RightLowMaxilar
+    100390: RightLowMaxilarAdjust
+    100392: RightLowMaxilarAdjust (2)
+    100394: RightNose
+    100396: RightNoseAdjust
+    100398: RightOuterBreast
+    100400: RightOuterBreast (2)
+    100402: RightShoulder
+    100404: RightShoulderAdjust
+    100406: RightShoulderAdjust (2)
+    100408: RightToeBase
+    100410: RightToeBase (2)
+    100412: RightTrapezius
+    100414: RightTrapezius (2)
+    100416: RightUpLeg
+    100418: RightUpLegAdjust
+    100420: RightUpLegAdjust (2)
+    100422: RightUpperLid
+    100424: RightUpperLidAdjust
+    100426: Spine
+    100428: Spine1
+    100430: Spine1Adjust
+    100432: Spine1Adjust (2)
+    100434: SpineAdjust
+    100436: SpineAdjust (2)
+    100438: Texture Group
+    100440: Tongue01
+    100442: Tongue02
+    100444: UMA_Male_Rig
+    100446: UpperLips
+    100448: UpperLipsAdjust
+    100450: Mill_balaklava
+    100452: Mill_balaklava_repap
+    100454: Mill_boots
+    100456: Mill_boots_remap
+    100458: Mill_hat
+    100460: Mill_hat_pants
+    100462: Mill_hat_pants_remap
+    100464: Mill_t_shirt
+    100466: Mill_t_shirt_remap
+    400000: Global
+    400002: Head
+    400004: HeadAdjust
+    400006: HeadAdjust (2)
+    400008: HeadAdjust (3)
+    400010: HeadAdjust (4)
+    400012: Hips
+    400014: LeftArm
+    400016: LeftArmAdjust
+    400018: LeftArmAdjust (2)
+    400020: LeftCheek
+    400022: LeftCheekAdjust
+    400024: LeftEar
+    400026: LeftEarAdjust
+    400028: LeftEarAdjust (2)
+    400030: LeftEarAdjust (3)
+    400032: LeftEarAdjust (4)
+    400034: LeftEye
+    400036: LeftEyeAdjust
+    400038: LeftEyebrowLow
+    400040: LeftEyebrowLowAdjust
+    400042: LeftEyebrowLowAdjust (2)
+    400044: LeftEyebrowMiddle
+    400046: LeftEyebrowMiddleAdjust
+    400048: LeftEyebrowMiddleAdjust (2)
+    400050: LeftEyebrowUp
+    400052: LeftEyebrowUpAdjust
+    400054: LeftEyebrowUpAdjust (2)
+    400056: LeftEyeGlobe
+    400058: LeftFoot
+    400060: LeftFoot (2)
+    400062: LeftForeArm
+    400064: LeftForeArmAdjust
+    400066: LeftForeArmAdjust (2)
+    400068: LeftForeArmTwist
+    400070: LeftForeArmTwistAdjust
+    400072: LeftForeArmTwistAdjust (2)
+    400074: LeftGluteus
+    400076: LeftGluteus (2)
+    400078: LeftGluteus (3)
+    400080: LeftGluteus (4)
+    400082: LeftHand
+    400084: LeftHand (2)
+    400086: LeftHandFinger01_01
+    400088: LeftHandFinger01_02
+    400090: LeftHandFinger01_03
+    400092: LeftHandFinger02_01
+    400094: LeftHandFinger02_02
+    400096: LeftHandFinger02_03
+    400098: LeftHandFinger03_01
+    400100: LeftHandFinger03_02
+    400102: LeftHandFinger03_03
+    400104: LeftHandFinger04_01
+    400106: LeftHandFinger04_02
+    400108: LeftHandFinger04_03
+    400110: LeftHandFinger05_01
+    400112: LeftHandFinger05_02
+    400114: LeftHandFinger05_03
+    400116: LeftInnerBreast
+    400118: LeftInnerBreast (2)
+    400120: LeftLeg
+    400122: LeftLeg (2)
+    400124: LeftLegAdjust
+    400126: LeftLegAdjust (2)
+    400128: LeftLegAdjust (3)
+    400130: LeftLips
+    400132: LeftLipsAdjust
+    400134: LeftLipsInferior
+    400136: LeftLipsInferiorAdjust
+    400138: LeftLipsSuperiorMiddle
+    400140: LeftLipsSuperiorMiddleAdjust
+    400142: LeftLowCheek
+    400144: LeftLowCheekAdjust
+    400146: LeftLowCheekAdjust (2)
+    400148: LeftLowerLid
+    400150: LeftLowerLidAdjust
+    400152: LeftLowMaxilar
+    400154: LeftLowMaxilarAdjust
+    400156: LeftLowMaxilarAdjust (2)
+    400158: LeftNose
+    400160: LeftNoseAdjust
+    400162: LeftOuterBreast
+    400164: LeftOuterBreast (2)
+    400166: LeftShoulder
+    400168: LeftShoulderAdjust
+    400170: LeftShoulderAdjust (2)
+    400172: LeftToeBase
+    400174: LeftToeBase (2)
+    400176: LeftTrapezius
+    400178: LeftTrapezius (2)
+    400180: LeftUpLeg
+    400182: LeftUpLegAdjust
+    400184: LeftUpLegAdjust (2)
+    400186: LeftUpperLid
+    400188: LeftUpperLidAdjust
+    400190: LipsInferior
+    400192: LipsInferiorAdjust
+    400194: LipsSuperior
+    400196: LipsSuperiorAdjust
+    400198: LowerBack
+    400200: LowerBackAdjust
+    400202: LowerBackAdjust (2)
+    400204: LowerBackAdjust (3)
+    400206: LowerBackBelly
+    400208: LowerBackBelly (2)
+    400210: LowerBackBelly (3)
+    400212: Mandible
+    400214: MandibleAdjust
+    400216: MandibleAdjust (2)
+    400218: //RootNode
+    400220: Mill_hat_remap
+    400222: Neck
+    400224: NeckAdjust
+    400226: NeckAdjust (2)
+    400228: NeckAdjust (3)
+    400230: NeckAdjust (4)
+    400232: NoseBase
+    400234: NoseBaseAdjust
+    400236: NoseBaseAdjust (2)
+    400238: NoseMiddle
+    400240: NoseMiddleAdjust
+    400242: NoseMiddleAdjust (2)
+    400244: NoseTop
+    400246: NoseTopAdjust
+    400248: NoseTopAdjust (2)
+    400250: Position
+    400252: RightArm
+    400254: RightArmAdjust
+    400256: RightArmAdjust (2)
+    400258: RightCheek
+    400260: RightCheekAdjust
+    400262: RightEar
+    400264: RightEarAdjust
+    400266: RightEarAdjust (2)
+    400268: RightEarAdjust (3)
+    400270: RightEarAdjust (4)
+    400272: RightEye
+    400274: RightEyeAdjust
+    400276: RightEyebrowLow
+    400278: RightEyebrowLowAdjust
+    400280: RightEyebrowLowAdjust (2)
+    400282: RightEyebrowMiddle
+    400284: RightEyebrowMiddleAdjust
+    400286: RightEyebrowMiddleAdjust (2)
+    400288: RightEyebrowUp
+    400290: RightEyebrowUpAdjust
+    400292: RightEyebrowUpAdjust (2)
+    400294: RightEyeGlobe
+    400296: RightFoot
+    400298: RightFoot (2)
+    400300: RightForeArm
+    400302: RightForeArmAdjust
+    400304: RightForeArmAdjust (2)
+    400306: RightForeArmTwist
+    400308: RightForeArmTwistAdjust
+    400310: RightForeArmTwistAdjust (2)
+    400312: RightGluteus
+    400314: RightGluteus (2)
+    400316: RightGluteus (3)
+    400318: RightHand
+    400320: RightHand (2)
+    400322: RightHandFinger01_01
+    400324: RightHandFinger01_02
+    400326: RightHandFinger01_03
+    400328: RightHandFinger02_01
+    400330: RightHandFinger02_02
+    400332: RightHandFinger02_03
+    400334: RightHandFinger03_01
+    400336: RightHandFinger03_02
+    400338: RightHandFinger03_03
+    400340: RightHandFinger04_01
+    400342: RightHandFinger04_02
+    400344: RightHandFinger04_03
+    400346: RightHandFinger05_01
+    400348: RightHandFinger05_02
+    400350: RightHandFinger05_03
+    400352: RightInnerBreast
+    400354: RightInnerBreast (2)
+    400356: RightLeg
+    400358: RightLeg (2)
+    400360: RightLegAdjust
+    400362: RightLegAdjust (2)
+    400364: RightLegAdjust (3)
+    400366: RightLips
+    400368: RightLipsAdjust
+    400370: RightLipsInferior
+    400372: RightLipsInferiorAdjust
+    400374: RightLipsSuperiorMiddle
+    400376: RightLipsSuperiorMiddleAdjust
+    400378: RightLowCheek
+    400380: RightLowCheekAdjust
+    400382: RightLowCheekAdjust (2)
+    400384: RightLowerLid
+    400386: RightLowerLidAdjust
+    400388: RightLowMaxilar
+    400390: RightLowMaxilarAdjust
+    400392: RightLowMaxilarAdjust (2)
+    400394: RightNose
+    400396: RightNoseAdjust
+    400398: RightOuterBreast
+    400400: RightOuterBreast (2)
+    400402: RightShoulder
+    400404: RightShoulderAdjust
+    400406: RightShoulderAdjust (2)
+    400408: RightToeBase
+    400410: RightToeBase (2)
+    400412: RightTrapezius
+    400414: RightTrapezius (2)
+    400416: RightUpLeg
+    400418: RightUpLegAdjust
+    400420: RightUpLegAdjust (2)
+    400422: RightUpperLid
+    400424: RightUpperLidAdjust
+    400426: Spine
+    400428: Spine1
+    400430: Spine1Adjust
+    400432: Spine1Adjust (2)
+    400434: SpineAdjust
+    400436: SpineAdjust (2)
+    400438: Texture Group
+    400440: Tongue01
+    400442: Tongue02
+    400444: UMA_Male_Rig
+    400446: UpperLips
+    400448: UpperLipsAdjust
+    400450: Mill_balaklava
+    400452: Mill_balaklava_repap
+    400454: Mill_boots
+    400456: Mill_boots_remap
+    400458: Mill_hat
+    400460: Mill_hat_pants
+    400462: Mill_hat_pants_remap
+    400464: Mill_t_shirt
+    400466: Mill_t_shirt_remap
+    2300000: Mill_hat_remap
+    3300000: Mill_hat_remap
+    4300000: Mill_hat_remap
+    4300002: Mill_t_shirt
+    4300004: Mill_t_shirt_remap
+    4300006: Mill_boots
+    4300008: Mill_balaklava
+    4300010: Mill_balaklava_repap
+    4300012: Mill_hat
+    4300014: Mill_hat_pants_remap
+    4300016: Mill_boots_remap
+    4300018: Mill_hat_pants
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Mill_hat_remap
+    13700002: Mill_balaklava
+    13700004: Mill_balaklava_repap
+    13700006: Mill_boots
+    13700008: Mill_boots_remap
+    13700010: Mill_hat
+    13700012: Mill_hat_pants
+    13700014: Mill_hat_pants_remap
+    13700016: Mill_t_shirt
+    13700018: Mill_t_shirt_remap
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 109
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton:
+    - name: Mill_hat_fix_01(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: HeadAdjust
+      position: {x: -0.051950023, y: 0.000000003922132, z: 0.000000027939677}
+      rotation: {x: -0.000000049617423, y: 0.0000000032596317, z: -1.40976056e-14,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mill_hat_remap
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000030907028, y: 0.7071068, z: 0.7071067, w: 0.00000003090702}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UMA_Male_Rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0.000000053385083, z: 0.000000053385094, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: HeadAdjust (2)
+      position: {x: -0.051950023, y: 0.000000003922132, z: 0.000000027939677}
+      rotation: {x: -0.000000049617423, y: 0.0000000032596317, z: -1.40976056e-14,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftEarAdjust
+      position: {x: -0.00000009778887, y: -9.31323e-10, z: -0.000000048428774}
+      rotation: {x: -0.0000001641456, y: 0.00000016856939, z: 0.000000005180482, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: RightEarAdjust
+      position: {x: -0.000000028871, y: -0.00000000349246, z: -0.00000006449409}
+      rotation: {x: 0.0000002530869, y: 0.00000015599653, z: -0.000000033178367, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

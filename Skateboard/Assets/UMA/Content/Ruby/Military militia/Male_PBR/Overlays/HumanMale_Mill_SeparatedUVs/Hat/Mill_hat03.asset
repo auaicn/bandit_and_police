@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c4834e6077abe64e968f9f87c9ac70a, type: 3}
+  m_Name: Mill_hat03
+  m_EditorClassIdentifier: 
+  overlayName: Mill_hat03
+  rect:
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  textureList:
+  - {fileID: 2800000, guid: 298f4a7ca45012641902637acf3e0063, type: 3}
+  - {fileID: 2800000, guid: 14dc28f81171ee649aafcc4768b80fe7, type: 3}
+  - {fileID: 2800000, guid: aaa58719aa6299f44bca31fa9ddc330f, type: 3}
+  tags: []
+  material: {fileID: 11400000, guid: a75f1b6b7bba67c41b310baf44c738e8, type: 2}
