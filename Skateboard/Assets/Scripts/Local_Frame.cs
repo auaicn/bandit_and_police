@@ -24,7 +24,7 @@ internal static class Constants_
 {
     public const float decrease_speed = 0.0005f;
     public const float decrease_speed_when_turn = 0.0002f;
-    public const float increase_speed = 0.005f;
+    public const float increase_speed = 0.0035f;
     public const float degree = 20f;
     public const int constraint_on_zoom_Operation = 50;
     public const float constraint_on_skill_Operation = 0.5f; //  Ali 동작간에, clear를 막기 위함.
@@ -38,7 +38,7 @@ public class Local_Frame : MonoBehaviour
     // context 간에, script 간에 주고받을 변수
     public static bool start; // to start game actually when we put two fingers on Screen.
     public static float score;
-
+    public static float sum;
     [SerializeField] private RectTransform rect_Background;
     [SerializeField] private RectTransform rect_joystick;
     [SerializeField] private GameObject playable_game_object;
@@ -89,8 +89,9 @@ public class Local_Frame : MonoBehaviour
 
     void OnGUI()
     {
-        GUI.skin.box.fontSize = 100;
-        GUI.Box(new Rect(0, 0, 400, 400), ((int)score).ToString());
+        // GUI.skin.box.fontSize = 100;
+        // GUI.Box(new Rect(0, 0, 400, 400), ((int)score).ToString());
+        // GUI.Box(new Rect(0, 0, 400, 400), ((int)score).ToString());
 
         // GUI 에 표시되는 화면 y값 조정
         Rect Top_Most_on_GUI = new Rect(TopMost.x, Screen.height - TopMost.yMax, TopMost.width, TopMost.height);
@@ -99,8 +100,8 @@ public class Local_Frame : MonoBehaviour
 
 
         // 중간에 터치영역 보이도록 나누어준 UI
-        GUI.Box(new Rect(Upper_on_GUI.x, Upper_on_GUI.y, Upper_on_GUI.width, 10), "Game Screen");
-        GUI.Box(new Rect(Lower_on_GUI.x, Lower_on_GUI.y, Lower_on_GUI.width, 10), "Lower");
+        //GUI.Box(new Rect(Upper_on_GUI.x, Upper_on_GUI.y, Upper_on_GUI.width, 10), "Game Screen");
+        //GUI.Box(new Rect(Lower_on_GUI.x, Lower_on_GUI.y, Lower_on_GUI.width, 10), "Lower");
 
     }
 
@@ -108,7 +109,7 @@ public class Local_Frame : MonoBehaviour
     void Start()
     {
         velocity = 0f;
-
+        sum = 0f;
         point_set_needed = true;
         skill = 0;
         score = 0f;
@@ -132,7 +133,7 @@ public class Local_Frame : MonoBehaviour
         sprint_point = GameObject.Find("sprint_point");
         board_image = GameObject.Find("board_image");
         board_image.SetActive(false);
-        playable_rigid_body.centerOfMass = new Vector3(0f, -0.05f, 0f);
+        playable_rigid_body.centerOfMass = new Vector3(0f, -0.5f, 0f);
         start = false;
 
         touches = new List<Hashtable>();
@@ -347,11 +348,16 @@ public class Local_Frame : MonoBehaviour
                         {
                             // 아직 스킬 하는 중이면,
                             bandit_animator.SetBool("Ali", true);
-                            playable_game_object.transform.Translate(0, 0.13f, 0);
+                            playable_game_object.transform.Translate(0, 0.15f, 0);
                             action(Action.Ali);
                         }
                         else
                         {
+                            if (sum != 0f)
+                            {
+                                board_game_object.transform.Rotate(-sum, 0f, 0f);
+                            }
+                            sum = 0f;
                             elapsed_time = 0;
                             bandit_animator.SetBool("Ali", false);
                             skill = 0;
@@ -455,16 +461,14 @@ public class Local_Frame : MonoBehaviour
                 // 턴
                 if (touch_point[2].x < mid_point.x)
                 {
-                    playable_game_object.transform.Rotate(0, -0.7f, 0);
-                    playable_game_object.transform.Translate(0, 0, 0.03f);
+                    playable_game_object.transform.Rotate(0, -0.3f, 0);
                     velocity -= Constants_.decrease_speed_when_turn;
                     Debug.Log("turn left");
                 }
                 else
                 {
                     Debug.Log("turn right");
-                    playable_game_object.transform.Rotate(0, 0.7f, 0);
-                    playable_game_object.transform.Translate(0, 0, 0.03f);
+                    playable_game_object.transform.Rotate(0, 0.3f, 0);
                     velocity -= Constants_.decrease_speed_when_turn;
                 }
 
@@ -501,11 +505,22 @@ public class Local_Frame : MonoBehaviour
             case Action.Ali:
 
                 if (elapsed_time * 4 < Action.skill_duration)
+                {
                     board_game_object.transform.Rotate(360 * Time.deltaTime * Action.num_turn * 0.1f, 0f, 0f);
+                    sum += 360 * Time.deltaTime * Action.num_turn * 0.1f;
+                }
                 else if (elapsed_time * 4 < Action.skill_duration * 3)
+                {
                     board_game_object.transform.Rotate(-360 * Time.deltaTime * Action.num_turn * 0.1f, 0f, 0f);
+                    sum -= 360 * Time.deltaTime * Action.num_turn * 0.1f;
+
+                }
                 else
+                {
                     board_game_object.transform.Rotate(360 * Time.deltaTime * Action.num_turn * 0.1f, 0f, 0f);
+                    sum += 360 * Time.deltaTime * Action.num_turn * 0.1f;
+
+                }
                 break;
 
             case Action.FlipFlap:

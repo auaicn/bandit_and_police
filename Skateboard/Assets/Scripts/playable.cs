@@ -30,7 +30,22 @@ public class playable : MonoBehaviour
     {
         Debug.Log("Collison nowo aliable is true");
         Local_Frame.aliable = true;
-        if (collision.collider.gameObject.tag.Equals("obstacle")) ;
-    }
+        
+        if (collision.collider.gameObject.tag.Equals("obstacle"));
+        
+        if (collision.gameObject.CompareTag("Inspector"))
+        {
+            UiController.Instance.EndGame();
+        }
+        
+        if (collision.gameObject.CompareTag("Supreme"))
+        {
+            UiController.Instance.NextStage();
+        }
+        if (collision.gameObject.CompareTag("Supreme"))
+        {
+            UiController.Instance.NextStage();
+        }
 
+    }
 }
